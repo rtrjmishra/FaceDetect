@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static',filename = 'css/style.css') }}"
+  </head>
+
+  <body>
+    <h1>Face,Eye and Smile Detection</h1>
+
+    <div class="img">
+        <img src="{{ url_for('video') }}" width="50%"/>
+    </div>
+    <h2>Click below for the detections</h2>
+    <div class="container">
+      <div class="center">
+        <a href="/index2">Detect!!</a>
+      </div>
+    </div>
+
+
+    </body>
+
+
+</html>
